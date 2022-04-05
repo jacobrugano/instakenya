@@ -26,7 +26,8 @@ To get the project .......
 ----python manage.py migrate 
 ----Run the application
 ----python manage.py runserver 
-----Running the application
+
+11) Running the application
 ----python manage.py server 
 
 #### Testing the application
