@@ -5,3 +5,7 @@ from django.http  import HttpResponse
 def welcome(request):
     # return HttpResponse('Welcome to the Moringa Tribune')
     return render(request, 'homepage.html')
+
+# def news_of_day(request):
+#     date = dt.date.today()
+#     return render(request, 'all-news/today-news.html', {"date": date,})
